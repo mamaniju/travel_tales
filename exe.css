@@ -1,8 +1,13 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header, nav, section, footer {
+    margin: 20px;
 }
 
 header {
@@ -18,39 +23,13 @@ header h1 {
 
 header p {
     margin: 10px 0;
-}
-
-video {
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-    margin: 20px 0;
-    
-}
-
-img {
-    width: 100%;
-    max-width: 400px; /* Ajusta el tamaño de la imagen según tus necesidades */
-    height: auto;
-    float: right; /* Establece la alineación a la derecha */
-    margin-left: 20px; /* Ajusta el margen izquierdo según sea necesario */
-}
-
-.video-container {
-    overflow: hidden; /* Para contener correctamente el video y la imagen */
-}
-
-nav {
-    background-color: #58BFBA;
-    color: #fff;
     text-align: center;
-    padding: 10px;
 }
 
 nav ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 nav li {
@@ -60,25 +39,57 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #58bfba;
     font-weight: bold;
     font-size: 16px;
 }
 
 section {
+    background-color: #fff;
     padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
-.destination-card {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
+.video-container {
+    position: relative;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+video, img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.video-container img {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 380px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+    float: right; 
+    margin-left: 150pxpx; 
+    margin-top: 10px; 
+
+}
+
+h2 {
+    color: #58bfba;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: justify;
 }
 
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
+    padding: 20px;
+    background-color: #414242;
     color: #fff;
 }
+
