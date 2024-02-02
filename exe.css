@@ -28,6 +28,18 @@ video {
     
 }
 
+img {
+    width: 100%;
+    max-width: 400px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+    float: right; /* Establece la alineación a la derecha */
+    margin-left: 20px; /* Ajusta el margen izquierdo según sea necesario */
+}
+
+.video-container {
+    overflow: hidden; /* Para contener correctamente el video y la imagen */
+}
+
 nav {
     background-color: #58BFBA;
     color: #fff;
