@@ -188,7 +188,7 @@ p {
 }
 .description-image-wireframes .text {
     text-align: left;
-    margin-top: -400px;
+    margin-top: -300px;
 
 }
 .description-image-wireframes img {
@@ -236,18 +236,15 @@ a:hover {
     flex-direction: column;
     align-items: center;
 }
-
 .image-link-desing,
 .title-image-medium {
     margin: 20px;
 }
-
 .image-link-desing h2 {
     color: #58bfba;
     margin-bottom: 10px;
     font-size: 40px;
 }
-
 .image-link-desing p,
 .title-image-medium .text p {
     margin-bottom: 10px;
@@ -257,7 +254,6 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .image-link {
     margin: 10px;
     text-align: center;
@@ -269,16 +265,20 @@ a:hover {
     box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
 }
-/*.title-image-medium img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
-}*/
+.image-link h3 {
+    color: #e96a63;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.image-link a {
+    color: #e96a63;
+    text-decoration: none;
+    font-size: 40px;
+}
 .title-image-medium img {
-    margin-right: 20px; /* Espaciado entre la imagen y el texto */
-    max-width: 20%;
+    margin-right: 200px; /* Espaciado entre la imagen y el texto */
+    max-width: 30%;
+    margin-top: 100px;
 }
 /* Modificación para colocar la imagen a la izquierda y el texto a la derecha */
 .title-image-medium {
@@ -286,24 +286,19 @@ a:hover {
     align-items: center;
     justify-content: space-between;
 }
-
 .title-image-medium .text {
-    flex: 1; /* Hace que ocupe el espacio restante */
-    margin-right: 30px; /* Espaciado entre la imagen y el texto */
+    flex: 5; /* Hace que ocupe el espacio restante */
+    margin-right: 100px; /* Espaciado entre la imagen y el texto */
+    margin-left: -280px;
 }
-.image-link a {
-    color: #e96a63;
-    text-decoration: none;
-    font-size: 40px;
-}
-
 .title-image-medium p {
     text-align: left;
 }
-.image-link h3,
+
 .title-image-medium h3 {
     color: #e96a63;
-    margin-bottom: 20px;
+    margin-bottom: 350px;
+    margin-left: 100px;
     font-size: 30px;
 }
 .image-link a:hover,
